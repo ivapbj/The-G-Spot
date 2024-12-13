@@ -15,7 +15,8 @@ export default function Home() {
           <Link to="/About Us">About Us</Link>
         </li>
         <li>
-          <Link to="/Contact Us">Contact Us</Link>
+          <Link to="/Contact Us">Contact Us</Link>/{" "}
+        </li>
       </ul>
     </div>
   );
