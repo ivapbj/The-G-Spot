@@ -1,23 +1,13 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "../components/Navigation.css";
-export default function Home() {
+// src/pages/Home.js
+import React from 'react';
+
+const Home = () => {
   return (
-    <div className="navbar">
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/services">Services</Link>
-        </li>
-        <li>
-          <Link to="/About Us">About Us</Link>
-        </li>
-        <li>
-          <Link to="/Contact Us">Contact Us</Link>/{" "}
-        </li>
-      </ul>
+    <div>
+      <h1>Welcome to The G Spa</h1>
+      <p>Relax, rejuvenate, and unwind at The G Spa.</p>
     </div>
   );
-}
+};
+
+export default Home;

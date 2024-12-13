@@ -1,11 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Website</title>
-</head>
-<body>
-  
-</body>
-</html>
+// src/pages/Home.js
+import React from "react";
+
+const Services = () => {
+  return (
+    <div>
+      <h1>Welcome to The G Spa</h1>
+      <p>Relax, rejuvenate, and unwind at The G Spa.</p>
+    </div>
+  );
+};
+
+export default Services;
