@@ -1,7 +1,7 @@
 // src/pages/Home.js
 import React from "react";
 
-const Contact_Us = () => {
+const ContactUs = () => {
   return (
     <div>
       <h1>Welcome to The G Spa</h1>
@@ -10,4 +10,4 @@ const Contact_Us = () => {
   );
 };
 
-export default Contact_Us;
+export default ContactUs;

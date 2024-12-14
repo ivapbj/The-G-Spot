@@ -1,7 +1,7 @@
 // src/pages/Home.js
 import React from "react";
 
-const About_Us = () => {
+const AboutUs = () => {
   return (
     <div>
       <h1>Welcome to The G Spa</h1>
@@ -10,4 +10,4 @@ const About_Us = () => {
   );
 };
 
-export default About_Us;
+export default AboutUs;
